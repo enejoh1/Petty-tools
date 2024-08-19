@@ -1,0 +1,9 @@
+pluginManagement {
+    plugins {
+        id 'org.jetbrains.kotlin.jvm' version '1.9.22'
+    }
+}
+rootProject.name = 'regAPI2'
+include 'src:main:States'
+findProject(':src:main:States')?.name = 'States'
+
