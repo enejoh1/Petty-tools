@@ -35,7 +35,7 @@ public class QuickCheck {
 
     public String requestInfoWhatsappGson() {
         randomNumber = generateRandom();
-        String encryptedBvn = encryptV2("22145862752");
+        String encryptedBvn = encryptV2("22303448521");
         //22153225112
         JsonObject jsonObject = new JsonObject();
         jsonObject.add("request_ref", new JsonPrimitive(randomNumber));
