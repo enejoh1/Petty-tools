@@ -25,7 +25,7 @@ public class EllipticalEthereumKeyGenerator {
             // Open file for writing
             try (PrintWriter writer = new PrintWriter(new FileWriter("private_keysbabe.txt"))) {
                 // Generate 1,000,000 private keys
-                for (int i = 0; i < 300000; i++) {
+                for (int i = 0; i < 3000000; i++) {
                     // Generate the key pair
                     KeyPair keyPair = keyPairGenerator.generateKeyPair();
                     PrivateKey privateKey = keyPair.getPrivate();
